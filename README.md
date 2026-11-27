@@ -11,14 +11,14 @@ If you already have all the dependencies (see table below):
 ```sh
 # Ubuntu / macOS
 mv ~/.config/nvim ~/.config/nvim.bak          # optional: back up existing config
-git clone <your-repo-url> ~/.config/nvim
+git clone https://github.com/cramyhtomit/nvim-lazyvim.git ~/.config/nvim
 nvim
 ```
 
 ```powershell
 # Windows 11 (PowerShell)
 Rename-Item "$env:LOCALAPPDATA\nvim" "nvim.bak"    # optional: back up existing config
-git clone <your-repo-url> "$env:LOCALAPPDATA\nvim"
+git clone https://github.com/cramyhtomit/nvim-lazyvim.git "$env:LOCALAPPDATA\nvim"
 nvim
 ```
 
